@@ -1,0 +1,35 @@
+{
+    "name": "p2c6/laravel-system-generated-code",
+    "description": "Laravel package for generating system-generated codes",
+    "type": "library",
+    "require": {
+        "php": "^8.0 || ^9.0 || ^10.0",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "P2c6\\LaravelSystemGeneratedCode\\": "src/Helpers"
+        }
+    },
+    "authors": [
+        {
+            "name": "AJ Em"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "P2c6\\LaravelSystemGeneratedCode\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "P2c6\\LaravelSystemGeneratedCode\\SystemGeneratedCodeServiceProvider"
+            ],
+            "aliases": {
+                "SystemGeneratedCode": "P2c6\\LaravelSystemGeneratedCode\\Facades\\SystemGeneratedCode"
+            }
+        }
+    }
+}
