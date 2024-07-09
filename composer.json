@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "P2c6\\LaravelSystemGeneratedCode\\": "src/Helpers"
+            "P2c6\\LaravelSystemGeneratedCode\\Helpers\\": "src/Helpers"
         }
     },
     "authors": [
