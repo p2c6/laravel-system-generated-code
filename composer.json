@@ -22,15 +22,5 @@
         "psr-4": {
             "P2c6\\LaravelSystemGeneratedCode\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "P2c6\\LaravelSystemGeneratedCode\\SystemGeneratedCodeServiceProvider"
-            ],
-            "aliases": {
-                "SystemGeneratedCode": "P2c6\\LaravelSystemGeneratedCode\\Facades\\SystemGeneratedCode"
-            }
-        }
     }
 }
