@@ -12,7 +12,7 @@ class SystemGeneratedCodeHelper
             return null; // Handle the case where $id is null or not provided
         }
 
-        $config = Config::get('system-generated-code.formats.default');
+        $config = config('system-generated-code.formats.default');
         $prefix = isset($config['prefix']) ? $config['prefix'] : '';
         $leadingZeros = isset($config['leading_zeros']) ? $config['leading_zeros'] : 0;
         $separator = isset($config['separator']) ? $config['separator'] : '-';
