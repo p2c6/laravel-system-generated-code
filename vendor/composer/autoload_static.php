@@ -10,7 +10,7 @@ class ComposerStaticInitf1ad243197b8c40830d117b30148dc7e
         'P' => 
         array (
             'P2c6\\LaravelSystemGeneratedCode\\Tests\\' => 38,
-            'P2c6\\LaravelSystemGeneratedCode\\Helpers\\' => 40,
+            'P2c6\\LaravelSystemGeneratedCode\\' => 32,
         ),
     );
 
@@ -19,9 +19,9 @@ class ComposerStaticInitf1ad243197b8c40830d117b30148dc7e
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'P2c6\\LaravelSystemGeneratedCode\\Helpers\\' => 
+        'P2c6\\LaravelSystemGeneratedCode\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Helpers',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

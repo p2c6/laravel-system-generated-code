@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'P2c6\\LaravelSystemGeneratedCode\\Tests\\' => array($baseDir . '/tests'),
-    'P2c6\\LaravelSystemGeneratedCode\\Helpers\\' => array($baseDir . '/src/Helpers'),
+    'P2c6\\LaravelSystemGeneratedCode\\' => array($baseDir . '/src'),
 );
